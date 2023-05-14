@@ -22,6 +22,8 @@ li {
 }
 img {
   max-width: 100%;
+  display: block;
+  border-radius: 5px;
 }
 /*grid*/
 .estrutura {
@@ -91,8 +93,20 @@ img {
 /*anuncios*/
 .anuncios {
   gird-area: anuncios;
+  background: #fafbfc;
+  display: grid;
+  align-content: start;
+  padding: 30px;
+  grid-gap: 30px;
 }
+
 /*footer*/
 .footer {
   grid-area: footer;
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+}
+.footer p {
+  padding: 30px;
+  color: white;
+  text-align: center;
 }
